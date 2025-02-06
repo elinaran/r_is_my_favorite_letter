@@ -55,3 +55,16 @@ button:hover {
     background-color: #ff1493;
     transform: scale(1.05);
 }
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* Centers the logo horizontally */
+    align-items: center;
+    margin-top: 20px; /* Adjust the spacing from the top */
+}
+
+.logo {
+    width: 150px; /* Adjust the size of the logo */
+    height: auto; /* Keeps the aspect ratio */
+}
+
