@@ -9,20 +9,22 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0; /* Remove default margin */
-    padding: 50px;
+    padding: 20px;
 }
 
 .container {
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px; /* More rounded */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    max-width: 400px;
+    max-width: 450px;
+    word-wrap: break-word; /* Ensures long words don’t overflow */
+    text-align: center;
 }
 
 h1 {
-    color: #000000;
+    color: #ff4d6d;
     font-weight: 900;
 }
 
@@ -30,6 +32,7 @@ p {
     font-size: 18px;
     color: #333;
     margin: 15px 0;
+    line-height: 1.6;
 }
 
 button {
