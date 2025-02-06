@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
-    font-family: 'Quicksand', sans-serif; /* Bubbly font */
+    font-family: 'Pacifico', cursive; 
     text-align: center;
     background-color: #ffe4e1;
     height: 100vh; /* Full screen height */
