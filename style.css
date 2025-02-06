@@ -4,6 +4,11 @@ body {
     font-family: 'Quicksand', sans-serif; /* Bubbly font */
     text-align: center;
     background-color: #ffe4e1;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Remove default margin */
     padding: 50px;
 }
 
