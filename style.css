@@ -12,6 +12,12 @@ body {
     margin: 0; /* Remove default margin */
     padding: 20px;
 }
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .logo-container {
     display: flex;
@@ -42,7 +48,7 @@ body {
 
 h1 {
     font-family: 'DM Serif Text', serif;
-    color: #ff4d6d;
+    color: ##333333;
     font-weight: 900;
 }
 
