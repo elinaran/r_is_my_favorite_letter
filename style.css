@@ -15,17 +15,17 @@ body {
 
 .logo-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Take full width */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    width: 100%;
+    margin: 20px 0; /* Adds space above and below */
     text-align: center;
-    margin-top: 20px;
 }
 
 /* Ensure the image itself is centered */
 .logo {
-    display: block; /* Remove any extra spacing */
-    max-width: 100%; /* Adjust size if needed */
+    display: block;
+    max-width: 200px; /* Adjust size if needed */
     height: auto;
 }
 
