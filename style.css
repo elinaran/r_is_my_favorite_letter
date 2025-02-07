@@ -24,6 +24,7 @@ body {
     width: 120px; /* Adjust the size of the logo */
     height: auto; /* Keeps the aspect ratio */
     max-width: 100%;
+    display: block;
     
 }
 
